@@ -1,66 +1,40 @@
-# Blinx - AI Blog Generator
-AI-powered blog generator built with Streamlit, LangChain, and OpenAI. Generate SEO-friendly titles &amp; posts with customizable tone, style, and keywords.
+<!-- Main Project Title -->
+# AI Blog Generator
 
-Features
-🎯 Catchy Blog Titles – AI-generated SEO-friendly titles for any topic
+<!-- Short description -->
+An AI-powered blog writing tool built with **Streamlit** and **OpenAI GPT**.  
+Generate blog titles and posts with customizable tone, style, keywords, and length.
 
-✍️ Full-Length Blog Posts – Customizable tone, style, and keywords
+---
 
-🖊 Content Preview & Editing – Make changes before downloading
+<!-- Section: Features -->
+## Features
+- Generate SEO-friendly blog titles  
+- Create full blog posts instantly  
+- Customize **tone**, **style**, **keywords**, and **length**  
+- Preview and edit before downloading  
+- Export as Markdown or plain text  
 
-💬 Feedback Collection – Gather user insights to improve future content
+---
 
-📥 Download Option – Export as Markdown or plain text
+<!-- Section: Tech Stack -->
+## Tech Stack
+- **Python** – Core backend logic  
+- **Streamlit** – Interactive web interface  
+- **OpenAI API** – AI text generation  
+- **python-dotenv** – Environment variable management  
+- **markdown** – Formatting and export  
+- **html2text** – HTML to text conversion  
 
-🛠 Tech Stack
-Frontend:
+---
 
-Streamlit – Interactive web app interface
+<!-- Section: Installation steps -->
+## Installation
 
-AI & Backend Logic:
-
-Python – Core application logic
-
-OpenAI GPT-3.5 / GPT-4 – Text generation
-
-Others:
-
-python-dotenv – Environment variable management
-
-Markdown libraries – Content export & formatting
-
-📦 Installation
-Clone the repository
-
-bash
-Copy
-Edit
+```bash
+# Clone the repository
 git clone https://github.com/your-username/ai-blog-generator.git
 cd ai-blog-generator
-Install dependencies
 
-bash
-Copy
-Edit
+# Install dependencies
 pip install -r requirements.txt
-Set your OpenAI API key
-Create a .env file in the project root:
-
-env
-Copy
-Edit
-OPENAI_API_KEY=your_api_key_here
-Run the app
-
-bash
-Copy
-Edit
-streamlit run app.py
-🖥 Usage
-Enter a topic for your blog
-
-Choose tone, style, keywords, and length
-
-Generate titles → select one → generate full blog
-
-Preview, edit, and download your content
