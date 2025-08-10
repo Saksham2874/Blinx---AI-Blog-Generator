@@ -33,7 +33,7 @@ Generate blog titles and posts with customizable tone, style, keywords, and leng
 
 ```bash
 # Clone the repository
-git clone https://github.com/Saksham2874/ai-blog-generator.git
+git clone https://github.com/Saksham2874/Blinx-AI_Blog_Generator.git
 cd ai-blog-generator
 
 # Install dependencies
