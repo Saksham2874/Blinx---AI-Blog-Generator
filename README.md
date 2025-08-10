@@ -1,5 +1,5 @@
 <!-- Main Project Title -->
-# AI Blog Generator
+# Blinx - AI Blog Generator
 
 <!-- Short description -->
 An AI-powered blog writing tool built with **Streamlit** and **OpenAI GPT**.  
@@ -48,7 +48,7 @@ py -m streamlit run app.py (If your device has python naming as python then run 
 ```
 
 <!-- Section: Workflow / How to use -->
-# Workflow of the app
+## Workflow of the app
 1. Enter the topic.
 2. Click the Generate Titles button , AI will generate 8 topics (User can select from these topics generated).
 3. Choose tone/style , keywords and length.
