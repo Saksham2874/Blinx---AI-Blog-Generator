@@ -38,3 +38,10 @@ cd ai-blog-generator
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Set your openAI API Key
+Create a .env file in the root directory and add your OpenAI API key:
+OPENAI_API_KEY=your_api_key_here
+
+# After setting up, run:
+py -m streamlit run app.py (If your device has python naming as python then run this : python -m streamlit run app.py) 
