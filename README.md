@@ -45,3 +45,14 @@ OPENAI_API_KEY=your_api_key_here
 
 # After setting up, run:
 py -m streamlit run app.py (If your device has python naming as python then run this : python -m streamlit run app.py) 
+```
+
+<!-- Section: Workflow / How to use -->
+# Workflow of the app
+1. Enter the topic.
+2. Click the Generate Titles button , AI will generate 8 topics (User can select from these topics generated).
+3. Choose tone/style , keywords and length.
+4. Enable SEO optimization (SEO optimization will be disabled by default).
+5. Generate the Blog post.
+6. Preview, edit, and download.
+7. Give feedback.
